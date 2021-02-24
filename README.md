@@ -1,7 +1,6 @@
-# Netflix clone
+# Shoflix
 
-A Netflix clone made with react and redux. The user may browse by category and view trailers by clicking on a show/movie. This clone is deployed with firebase.
-
+A Netflix style video previewer. Makes an API call to render movies and shows by category. Some of the movie/show's play a trailer on a click. Deployed with firebase.
 ## Built With
 
 - [React](https://reactjs.org/)
@@ -11,5 +10,5 @@ A Netflix clone made with react and redux. The user may browse by category and v
 
 ## Deployment
 
-[Netflix clone](https://netflix-clone-23b92.web.app/)
-[![Netflix-clone](src/images/netflix-ss.png)](https://netflix-clone-23b92.web.app/ "Netflix-clone")
+[Shoflix](https://netflix-clone-23b92.web.app/)
+[![Showflix](src/images/netflix-ss.png)](https://netflix-clone-23b92.web.app/ "Shoflix")
