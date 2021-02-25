@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from "react";
-import Avatar from "../images/Netflix.png";
-import "./Nav.css";
+import React, { useEffect, useState } from 'react';
+import './Nav.css';
 
 const Nav = () => {
   const [show, handleShow] = useState(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    window.addEventListener('scroll', () => {
       if (window.scrollY > 100) {
         handleShow(true);
       } else {
@@ -14,18 +13,13 @@ const Nav = () => {
       }
     });
     return () => {
-      window.removeEventListener("scroll");
+      window.removeEventListener('scroll');
     };
   }, []);
 
   return (
-    <div className={`nav ${show && "nav_black"}`}>
-      <img
-        className="nav_logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png"
-        alt="Netflix Logo"
-      />
-      <img className="nav_avatar" src={Avatar} alt="Netflix Avatar" />
+    <div className={`nav ${show && 'nav_black'}`}>
+      <h3 className="nav_logo">Shoflix</h3>
     </div>
   );
 };
