@@ -1,6 +1,6 @@
 # Shoflix
 
-A Netflix style video previewer. Makes an API call to render movies and shows by category. Some of the movie/show's play a trailer on a click. Deployed with firebase.
+A Netflix style video previewer. Makes an API call to render movies and shows by category. Some of the video's play a trailer on a click. Deployed with firebase.
 
 ## Built With
 
